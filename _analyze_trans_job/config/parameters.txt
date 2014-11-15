@@ -1,0 +1,23 @@
+# Root path for the ktr/kjb files to analyze (including subfolders)
+# Note: Please use slash (/) instead of backslash (\) on Windows system
+# Examples:
+# analyze_telemetry_path=${Internal.Job.Filename.Directory}/../test
+# analyze_telemetry_path=/Pentaho/_analyze_telemetry/_analyze_trans_job/test
+# analyze_telemetry_path=/Pentaho/_analyze_telemetry/samples
+analyze_telemetry_path=${Internal.Job.Filename.Directory}/../test
+# Set anonymize_names to "1" to anonymize file names, transformation and step names
+# Set anonymize_names to "0" if you like the full names, e.g. for internal purposes
+anonymize_names=1
+# Output transformation, default: 3_output_text_file.ktr
+# You should not modify this value, it would be able to use a different output format etc.
+output_transformation=3_output_text_file.ktr
+# OPTIONAL OPT-IN: Do you allow Pentaho to contact you? In this case, please fill out the following fields:
+first_name=
+last_name=
+role=
+email=
+phone=
+company_name=
+industry=
+country=
+comments=
