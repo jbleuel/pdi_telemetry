@@ -1,0 +1,2 @@
+This folder contains all the analyze_result_*.* files.
+You can use the transformation transformations_jobs/4_quick_analyzer.ktr for analyzing these files.
