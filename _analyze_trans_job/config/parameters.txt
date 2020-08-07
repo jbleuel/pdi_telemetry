@@ -11,13 +11,3 @@ anonymize_names=1
 # Output transformation, default: 3_output_text_file.ktr
 # You should not modify this value, it would be able to use a different output format etc.
 output_transformation=3_output_text_file.ktr
-# OPTIONAL OPT-IN: Do you allow Pentaho to contact you? In this case, please fill out the following fields:
-first_name=
-last_name=
-role=
-email=
-phone=
-company_name=
-industry=
-country=
-comments=
